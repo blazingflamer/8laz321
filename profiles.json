@@ -1,28 +1,29 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-  "defaultProfile": "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
+  "defaultProfile": "{565ed1db-1474-455e-9d62-cb9fc7eb3f59}",
   "initialRows": 30,
   "initialCols": 120,
   "alwaysShowTabs": true,
   "showTerminalTitleInTitlebar": true,
   "experimental_showTabsInTitlebar": true,
   "profiles": [
- //   {
- //     "guid": "{09dc5eef-6840-4050-ae69-21e55e6a2e62}",
- //     "name": "Ubuntu",
- //     "colorscheme": "Campbell",
- //     "historySize": 9001,
- //     "snapOnInput": true,
- //     "cursorColor": "#FFFFFF",
- //     "cursorShape": "bar",
- //     "commandline": "wsl.exe",
- //     "fontFace": "Consolas",
- //     "fontSize": 12,
- //   "acrylicOpacity": 0.75,
- //     "useAcrylic": true,
- //     "closeOnExit": false,
- //     "padding": "0, 0, 0, 0",
-//    "icon": "ms-appdata:///roaming/ubuntu-32.png"//   },
+  {
+     "guid": "{09dc5eef-6840-4050-ae69-21e55e6a2e62}",
+     "name": "Ubuntu",
+      "colorscheme": "Solarized Light",
+     "historySize": 9001,
+     "snapOnInput": true,
+    "cursorColor": "#FFFFFF",
+     "cursorShape": "bar",
+     "commandline": "wsl.exe",
+     "fontFace": "Courier New",
+      "fontSize": 10,
+   "acrylicOpacity": 0.4,
+      "useAcrylic": true,
+     "closeOnExit": true,
+     "padding": "0, 0, 0, 0",
+    "icon": "ms-appdata:///roaming/ubuntu-32.png"//
+	},
     {
       "startingDirectory": "%USERPROFILE%",
       "guid": "{565ed1db-1474-455e-9d62-cb9fc7eb3f59}",
@@ -65,6 +66,12 @@
         "hidden": false,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+    },
+    {
+        "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+        "hidden": false,
+        "name": "Ubuntu-18.04",
+        "source": "Windows.Terminal.Wsl"
     }
   ],
   "schemes": [
