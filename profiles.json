@@ -10,7 +10,7 @@
   {
      "guid": "{09dc5eef-6840-4050-ae69-21e55e6a2e62}",
      "name": "Ubuntu",
-      "colorscheme": "Solarized Light",
+      "colorscheme": "UbuntuLegit",
      "historySize": 9001,
      "snapOnInput": true,
     "cursorColor": "#FFFFFF",
@@ -18,7 +18,7 @@
      "commandline": "wsl.exe",
      "fontFace": "Courier New",
       "fontSize": 10,
-   "acrylicOpacity": 0.4,
+   "acrylicOpacity": 0.6,
       "useAcrylic": true,
      "closeOnExit": true,
      "padding": "0, 0, 0, 0",
